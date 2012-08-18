@@ -1,0 +1,8 @@
+{
+  "name": "gravity",
+  "description": "A smart package for authorization in meteor.js",
+  "homepage": "https://github.com/patgannon/gravity",
+  "author": "Pat Gannon <patgannon@gmail.com>",
+  "version": "0.0.1",
+  "git": "https://github.com/patgannon/gravity.git"
+}
