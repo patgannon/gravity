@@ -30,7 +30,7 @@ Gravity.define_abilities = function(user, can) {
 
 In your templates, you can include conditionals that check permissions on specific resources before showing widgets that enable data modification.  The example below (derived from the "todo" example included with Meteor), checks that the logged-in user has access to create items in the Todo collection before showing the button.
 
-``` javascript
+``` XML
 <template name="todos">
   {{#if can.create}}
     <div id="new-todo-box">
