@@ -44,7 +44,7 @@ In your templates, you can include conditionals that check permissions on specif
 Installation
 ------------
 This isn't straight-forward just yet. *** You need to be using the "auth" branch of Meteor in order to use this. *** Follow the instructions on meteor.com for installing from git, and switch to the "auth" branch.
-When they integrate that into the main branch, I'll hook this into meteorite.
+When they integrate that into the main branch, I'll add this into the meteorite package management system.
 
 Wiring it up
 ------------
