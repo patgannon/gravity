@@ -8,7 +8,7 @@ This package for Meteor.js enables semi-declarative authorization.  It was inspi
 
 Usage
 -----
-Below is an example of declaring your authorization rules. (Put this in a file available to both client and server, for example "abilities.js" in your app's root folder.)  The rules permit a user named "Bill Brasky" to manage (perform all actions) on the Todos collection, and permits all other logged-in users to create or update Todos, or to delete the Todo titled "Marie Curie". (The criteria has can have multiple criteria, all of which must match, and is the way you could enforce that a user can only modify or delete their own items.)
+Below is an example of declaring your authorization rules. (Put this in a file available to both client and server, for example "abilities.js" in your app's root folder.)  The rules permit a user named "Bill Brasky" to manage (perform all actions) on the Todos collection, and permits all other logged-in users to create or update Todos, or to delete the Todo titled "Marie Curie". (The criteria has can have multiple criterion, all of which must match, and is the way you could enforce that a user can only modify or delete their own items.)
 
 ``` javascript
 if (typeof Gravity === 'undefined') {
